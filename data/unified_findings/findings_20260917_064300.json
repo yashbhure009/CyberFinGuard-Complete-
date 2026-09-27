@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-09-17T06:43:00.381709",
+  "scan_config": {
+    "target_url": "https://desktop-72ti05t.tailc1051b.ts.net/",
+    "target_ip": null,
+    "business": {
+      "asset_name": "desktop-72ti05t.tailc1051b.ts.net",
+      "asset_type": "web_application",
+      "business_unit": "Digital Banking",
+      "asset_owner": "Guest",
+      "business_value": 4999964,
+      "asset_criticality": 4,
+      "downtime_cost": null,
+      "recovery_cost": null
+    }
+  },
+  "total_findings": 5,
+  "findings": [
+    {
+      "finding_id": "nmap_4a5a861f",
+      "asset_id": "website-288e14c7052b61be",
+      "source": "nmap",
+      "severity": "high",
+      "title": "Open Port: 21/tcp (ftp)",
+      "description": "Service:",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": true,
+        "waf": true,
+        "edr": true
+      },
+      "impact": {
+        "asset_name": "desktop-72ti05t.tailc1051b.ts.net",
+        "asset_type": "web_application",
+        "business_unit": "Digital Banking",
+        "asset_owner": "Guest",
+        "asset_value": 4999964.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "desktop-72ti05t.tailc1051b.ts.net"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-17T01:01:44.781356",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "103.84.155.153",
+        "port": "21",
+        "product": "",
+        "service": "ftp",
+        "version": "",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    },
+    {
+      "finding_id": "nmap_2753a3e4",
+      "asset_id": "website-288e14c7052b61be",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 10000/tcp (snet-sensor-mgmt)",
+      "description": "Service:",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": true,
+        "waf": true,
+        "edr": true
+      },
+      "impact": {
+        "asset_name": "desktop-72ti05t.tailc1051b.ts.net",
+        "asset_type": "web_application",
+        "business_unit": "Digital Banking",
+        "asset_owner": "Guest",
+        "asset_value": 4999964.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "desktop-72ti05t.tailc1051b.ts.net"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-17T01:01:44.845574",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "103.84.155.153",
+        "port": "10000",
+        "product": "",
+        "service": "snet-sensor-mgmt",
+        "version": "",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    },
+    {
+      "finding_id": "nmap_72825f4e",
+      "asset_id": "website-288e14c7052b61be",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 8443/tcp (https-alt)",
+      "description": "Service:",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": true,
+        "waf": true,
+        "edr": true
+      },
+      "impact": {
+        "asset_name": "desktop-72ti05t.tailc1051b.ts.net",
+        "asset_type": "web_application",
+        "business_unit": "Digital Banking",
+        "asset_owner": "Guest",
+        "asset_value": 4999964.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "desktop-72ti05t.tailc1051b.ts.net"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-17T01:01:44.830901",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "103.84.155.153",
+        "port": "8443",
+        "product": "",
+        "service": "https-alt",
+        "version": "",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    },
+    {
+      "finding_id": "nmap_824c46a9",
+      "asset_id": "website-288e14c7052b61be",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 443/tcp (https)",
+      "description": "Service:",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": true,
+        "waf": true,
+        "edr": true
+      },
+      "impact": {
+        "asset_name": "desktop-72ti05t.tailc1051b.ts.net",
+        "asset_type": "web_application",
+        "business_unit": "Digital Banking",
+        "asset_owner": "Guest",
+        "asset_value": 4999964.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "desktop-72ti05t.tailc1051b.ts.net"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-17T01:01:44.815868",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "103.84.155.153",
+        "port": "443",
+        "product": "",
+        "service": "https",
+        "version": "",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    },
+    {
+      "finding_id": "nmap_cfc2973d",
+      "asset_id": "website-288e14c7052b61be",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 80/tcp (http)",
+      "description": "Service: Golang net/http server",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": true,
+        "waf": true,
+        "edr": true
+      },
+      "impact": {
+        "asset_name": "desktop-72ti05t.tailc1051b.ts.net",
+        "asset_type": "web_application",
+        "business_unit": "Digital Banking",
+        "asset_owner": "Guest",
+        "asset_value": 4999964.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "desktop-72ti05t.tailc1051b.ts.net"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-17T01:01:44.805452",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "103.84.155.153",
+        "port": "80",
+        "product": "Golang net/http server",
+        "service": "http",
+        "version": "",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    }
+  ],
+  "summary": {
+    "by_source": {
+      "nmap": 5
+    },
+    "by_severity": {
+      "high": 1,
+      "info": 4
+    },
+    "kev_count": 0,
+    "cve_count": 0
+  }
+}

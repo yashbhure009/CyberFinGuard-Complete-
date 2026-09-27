@@ -1,0 +1,250 @@
+{
+  "generated_at": "2026-09-27T20:01:16.365452",
+  "scan_config": {
+    "target_url": "https://httpbin.org/",
+    "target_ip": null,
+    "business": {
+      "asset_name": null,
+      "asset_type": null,
+      "business_unit": null,
+      "asset_owner": null,
+      "business_value": null,
+      "downtime_cost": null,
+      "recovery_cost": null,
+      "asset_criticality": null
+    }
+  },
+  "total_findings": 4,
+  "findings": [
+    {
+      "finding_id": "nmap_50135432",
+      "asset_id": "web-ea90a4e0d2f4",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 443/tcp (http)",
+      "description": "Service: Gunicorn 19.9.0",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": false,
+        "waf": false,
+        "edr": false
+      },
+      "impact": {
+        "asset_name": "httpbin.org",
+        "asset_type": "web_application",
+        "business_unit": "Database ",
+        "asset_owner": "Guest",
+        "asset_value": 100000.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "httpbin.org"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-27T14:21:12.546663",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "44.221.208.192",
+        "port": "443",
+        "product": "Gunicorn",
+        "service": "http",
+        "version": "19.9.0",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    },
+    {
+      "finding_id": "nmap_80afb54f",
+      "asset_id": "web-ea90a4e0d2f4",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 80/tcp (http)",
+      "description": "Service: Gunicorn 19.9.0",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": false,
+        "waf": false,
+        "edr": false
+      },
+      "impact": {
+        "asset_name": "httpbin.org",
+        "asset_type": "web_application",
+        "business_unit": "Database ",
+        "asset_owner": "Guest",
+        "asset_value": 100000.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "httpbin.org"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-27T14:21:12.520512",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "44.221.208.192",
+        "port": "80",
+        "product": "Gunicorn",
+        "service": "http",
+        "version": "19.9.0",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    },
+    {
+      "finding_id": "nmap_c1efe1a0",
+      "asset_id": "web-ea90a4e0d2f4",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 443/tcp (http)",
+      "description": "Service: Gunicorn 19.9.0",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": false,
+        "waf": false,
+        "edr": false
+      },
+      "impact": {
+        "asset_name": "httpbin.org",
+        "asset_type": "web_application",
+        "business_unit": "Database ",
+        "asset_owner": "Guest",
+        "asset_value": 100000.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "httpbin.org"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-27T13:41:50.126907",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "3.217.138.231",
+        "port": "443",
+        "product": "Gunicorn",
+        "service": "http",
+        "version": "19.9.0",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    },
+    {
+      "finding_id": "nmap_09465b52",
+      "asset_id": "web-ea90a4e0d2f4",
+      "source": "nmap",
+      "severity": "info",
+      "title": "Open Port: 80/tcp (http)",
+      "description": "Service: Gunicorn 19.9.0",
+      "likelihood": {
+        "cvss_score": null,
+        "epss_score": null,
+        "exploit_available": null,
+        "exploit_type": null,
+        "threat_actor": null,
+        "malware": null,
+        "mitre_technique": null,
+        "patched": null,
+        "mfa": false,
+        "waf": false,
+        "edr": false
+      },
+      "impact": {
+        "asset_name": "httpbin.org",
+        "asset_type": "web_application",
+        "business_unit": "Database ",
+        "asset_owner": "Guest",
+        "asset_value": 100000.0,
+        "downtime_cost_per_hour": null,
+        "recovery_cost": null,
+        "criticality": 4,
+        "environment": null,
+        "production_status": null,
+        "ip_address": null,
+        "hostname": "httpbin.org"
+      },
+      "metadata": {
+        "discovered_at": "2026-09-27T13:41:50.108792",
+        "source_tool": "nmap",
+        "finding_age_days": 0
+      },
+      "detail": {
+        "ip": "3.217.138.231",
+        "port": "80",
+        "product": "Gunicorn",
+        "service": "http",
+        "version": "19.9.0",
+        "protocol": "tcp"
+      },
+      "framework_tags": [],
+      "remediation_cost": null,
+      "risk_reduction": null,
+      "risk_score": null,
+      "sle": null,
+      "aro": null,
+      "ale": null
+    }
+  ],
+  "summary": {
+    "by_source": {
+      "nmap": 4
+    },
+    "by_severity": {
+      "info": 4
+    },
+    "kev_count": 0,
+    "cve_count": 0
+  }
+}

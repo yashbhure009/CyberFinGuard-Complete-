@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CyberFinGuard hosted /risk request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["likelihood", "impact"],
+  "properties": {
+    "likelihood": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cvss_score", "epss_score", "exploit_available", "exploit_type", "threat_actor", "malware", "mitre_technique", "patched", "mfa", "waf", "edr"],
+      "properties": {
+        "cvss_score": {"type": "number", "minimum": 0, "maximum": 10},
+        "epss_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "exploit_available": {"$ref": "#/$defs/yesNo"},
+        "exploit_type": {"enum": ["None", "PoC", "Weaponized", "Active_ITW"]},
+        "threat_actor": {"enum": ["Unknown", "Script_Kiddie", "Organized_Crime", "Nation_State"]},
+        "malware": {"$ref": "#/$defs/yesNo"},
+        "mitre_technique": {"type": "string"},
+        "patched": {"$ref": "#/$defs/yesNo"},
+        "mfa": {"$ref": "#/$defs/yesNo"},
+        "waf": {"$ref": "#/$defs/yesNo"},
+        "edr": {"$ref": "#/$defs/yesNo"}
+      }
+    },
+    "impact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["asset_value", "asset_criticality", "records_affected", "customers_affected", "downtime_hours", "recovery_time_hours", "recovery_capability", "business_continuity_score", "revenue_per_hour", "data_sensitivity", "data_type", "regulatory_jurisdiction", "backup_availability"],
+      "properties": {
+        "asset_value": {"type": "number", "minimum": 0},
+        "asset_criticality": {"type": "integer", "minimum": 3, "maximum": 5},
+        "records_affected": {"type": "integer", "minimum": 0},
+        "customers_affected": {"type": "integer", "minimum": 0},
+        "downtime_hours": {"type": "number", "minimum": 0},
+        "recovery_time_hours": {"type": "number", "minimum": 0},
+        "recovery_capability": {"type": "number", "minimum": 0, "maximum": 1},
+        "business_continuity_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "revenue_per_hour": {"type": "number", "minimum": 0},
+        "data_sensitivity": {"enum": ["Public", "Internal", "Confidential"]},
+        "data_type": {"enum": ["Financial", "Credentials", "Intellectual_Property", "Operational"]},
+        "regulatory_jurisdiction": {"enum": ["GDPR", "DPDPA", "RBI", "SEBI"]},
+        "backup_availability": {"$ref": "#/$defs/yesNo"}
+      }
+    }
+  },
+  "$defs": {"yesNo": {"enum": ["Yes", "No"]}}
+}

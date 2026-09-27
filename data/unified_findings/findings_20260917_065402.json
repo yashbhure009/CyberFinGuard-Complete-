@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-17T06:54:02.099419",
+  "scan_config": {
+    "target_url": "https://httpbin.org/",
+    "target_ip": null,
+    "business": {
+      "asset_name": "httpbin.org",
+      "asset_type": "web_application",
+      "business_unit": "Digital Banking",
+      "asset_owner": "Guest",
+      "business_value": 4999964,
+      "asset_criticality": 4,
+      "downtime_cost": null,
+      "recovery_cost": null
+    }
+  },
+  "total_findings": 0,
+  "findings": [],
+  "summary": {
+    "by_source": {},
+    "by_severity": {},
+    "kev_count": 0,
+    "cve_count": 0
+  }
+}

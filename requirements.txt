@@ -1,0 +1,23 @@
+# CyberFinGuard Python dependencies
+# Install with:
+#   .\\venv\\Scripts\\python.exe -m pip install -r requirements.txt
+
+# Web API and CORS
+Flask>=3.1,<4
+flask-cors>=5,<6
+
+# PostgreSQL and environment configuration
+psycopg2-binary>=2.9.11,<3
+python-dotenv>=1,<2
+
+# HTTP clients and scanner/API integrations
+requests>=2.32,<3
+
+# Data processing and local risk calculations
+numpy>=2.3,<3
+pandas>=2.3,<3
+matplotlib>=3.10,<4
+
+# Development and test tooling
+pytest>=8.3,<9
+
